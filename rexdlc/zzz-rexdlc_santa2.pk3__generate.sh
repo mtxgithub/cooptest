@@ -84,9 +84,9 @@ else
   zip --quiet -r ${tempdir}/zzz-rexdlc_santa2.pk3 *
   popd > /dev/null
   mv ${tempdir}/zzz-rexdlc_santa2.pk3 .
+  echo
+  echo "should have worked:"
+  ls -la zzz-rexdlc_santa2.pk3
 fi
 
 rm -rf ${tempdir}
-echo
-echo "should have worked:"
-ls -la zzz-rexdlc_santa2.pk3
